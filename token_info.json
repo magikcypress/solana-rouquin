@@ -1,0 +1,13 @@
+{
+  "name": "Rouquin",
+  "symbol": "ROUQ",
+  "decimals": 9,
+  "supply": 1000000,
+  "mint": "4Ce6xE1B8AhQCjij4TMwzUBvQ3NBu1N9iQ3oXib3TZw6",
+  "tokenAccount": "2QR2AVZqQjmBLUJCpvmLaTs9Vanq5mKFPZ9avscacTxu",
+  "authority": "5hRvhwA74m8dnWg7BXoMRdcCRCEP3ATWnR9uhcmTeSu8",
+  "program": "Token-2022 (TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb)",
+  "network": "devnet",
+  "created": "2026-03-07",
+  "explorer": "https://explorer.solana.com/address/4Ce6xE1B8AhQCjij4TMwzUBvQ3NBu1N9iQ3oXib3TZw6?cluster=devnet"
+}
