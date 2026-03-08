@@ -1,0 +1,10 @@
+{
+  "name": "rouquin-poster",
+  "version": "1.0.0",
+  "description": "Post to Twitter/X and Telegram simultaneously",
+  "type": "module",
+  "dependencies": {
+    "twitter-api-v2": "^1.17.0",
+    "dotenv": "^16.4.0"
+  }
+}
