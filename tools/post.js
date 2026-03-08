@@ -18,6 +18,16 @@ async function postTwitter(text) {
   return `https://x.com/i/status/${data.id}`;
 }
 
+async function postDiscord(text) {
+  const res = await fetch(process.env.DISCORD_WEBHOOK_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ content: text, username: "Rouquin 🦊" }),
+  });
+  if (!res.ok) throw new Error(`Discord ${res.status}: ${await res.text()}`);
+  return res.status;
+}
+
 async function postTelegram(text) {
   const url = `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`;
   const res = await fetch(url, {
@@ -39,9 +49,10 @@ console.log(`\nPosting: "${message}"\n`);
 const results = await Promise.allSettled([
   postTwitter(message),
   postTelegram(message),
+  postDiscord(message),
 ]);
 
-const [twitter, telegram] = results;
+const [twitter, telegram, discord] = results;
 
 if (twitter.status === "fulfilled") {
   console.log(`Twitter  OK  ${twitter.value}`);
@@ -53,4 +64,10 @@ if (telegram.status === "fulfilled") {
   console.log(`Telegram OK  message #${telegram.value}`);
 } else {
   console.error(`Telegram FAIL  ${telegram.reason.message}`);
+}
+
+if (discord.status === "fulfilled") {
+  console.log(`Discord  OK`);
+} else {
+  console.error(`Discord  FAIL  ${discord.reason.message}`);
 }
