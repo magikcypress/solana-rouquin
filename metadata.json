@@ -2,13 +2,13 @@
   "name": "Rouquin",
   "symbol": "ROUQ",
   "description": "Rouquin - Le renard malin de la blockchain Solana.",
-  "image": "https://raw.githubusercontent.com/magikcypress/solana-rouquin/main/assets/rouquin.jpg",
-  "external_url": "",
+  "image": "https://ipfs.io/ipfs/bafkreibg652gpbvyszxspgivibv344e57akwsee222md7p6m7xfsoupore",
+  "external_url": "https://rouquin.site",
   "attributes": [],
   "properties": {
     "files": [
       {
-        "uri": "https://raw.githubusercontent.com/magikcypress/solana-rouquin/main/assets/rouquin.jpg",
+        "uri": "https://ipfs.io/ipfs/bafkreibg652gpbvyszxspgivibv344e57akwsee222md7p6m7xfsoupore",
         "type": "image/jpeg"
       }
     ],

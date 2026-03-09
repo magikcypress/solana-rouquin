@@ -9,5 +9,9 @@
   "program": "Token-2022 (TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb)",
   "network": "devnet",
   "created": "2026-03-07",
-  "explorer": "https://explorer.solana.com/address/4Ce6xE1B8AhQCjij4TMwzUBvQ3NBu1N9iQ3oXib3TZw6?cluster=devnet"
+  "explorer": "https://explorer.solana.com/address/4Ce6xE1B8AhQCjij4TMwzUBvQ3NBu1N9iQ3oXib3TZw6?cluster=devnet",
+  "ipfs": {
+    "image": "bafkreibg652gpbvyszxspgivibv344e57akwsee222md7p6m7xfsoupore",
+    "metadata": "bafkreiaosidmjsskeizcy5oyb4dbelqhknnju42xucl6af3nbdjhkauubu"
+  }
 }
