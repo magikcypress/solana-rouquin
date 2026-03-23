@@ -15,6 +15,7 @@ Guide complet pour comprendre, lancer et faire vivre le meme token $ROUQ sur Sol
 | [07-securite-legal.md](07-securite-legal.md) | Burn mint authority, LP lock, pieges a eviter, legal |
 | [08-plan-action.md](08-plan-action.md) | Plan semaine par semaine avec actions concretes |
 | [09-tester-devnet-mainnet.md](09-tester-devnet-mainnet.md) | Tester sur devnet et mainnet : CLI, dashboard API, checklist, RPC |
+| [10-checklist-mainnet.md](10-checklist-mainnet.md) | Checklist complète migration mainnet : keypair, metadata, dashboard, site, liquidité |
 
 ## Ou on en est
 
